@@ -8,19 +8,19 @@ if os.path.exists("local.env"):
 load_dotenv()
 class Config(object):
     log = True
-    APP_ID = getenv("API_ID", "6435225")
-    API_HASH = getenv("API_HASH", "4e984ea35f854762dcde906dce426c2d")
-    TOKEN = getenv("TOKEN", "")
-    OWNER_ID = getenv("OWNER_ID", "")
-    ASSISTANT_ID = getenv("ASSISTANT_ID", "")
-    STRING_SESSION = getenv("STRING_SESSION", "") #telethon
-    OWNER_USERNAME = getenv("OWNER_USERNAME", "")
-    DB_URI = getenv("DATABASE_URL", "")
-    DB_URI = DB_URI.replace("postgres", "postgresql")
-    MESSAGE_DUMP = getenv("MESSAGE_DUMP", "-1001509525202")
-    GBAN_LOGS = getenv("GBAN_LOGS", "-1001509525202")
-    SYS_ADMIN = getenv("SYS_ADMIN", "1669178360")
-    DEV_USERS = getenv("DEV_USERS", "1669178360")
+    APP_ID = getenv("API_ID", "15954332")
+    API_HASH = getenv("API_HASH", "85adea6f1eaf068b707703b4846a9ced")
+    TOKEN = getenv("TOKEN", "5970750070:AAGYVKWTOX5pecOIhhz6ghs4sdoSsyssS6c")
+    OWNER_ID = getenv("OWNER_ID", "5134595693")
+    ASSISTANT_ID = getenv("ASSISTANT_ID", "5134595693")
+    STRING_SESSION = getenv("STRING_SESSION", "1ApWapzMBu4UovB77DbJ7e3WhZATE7y8QHY540J1uGdX0ROgUsV0f6IiormYSkMtojl0bc4maHRF4cBNiZ6OwY6XaoJt_I6m-027yr4AtDkm_vogRXkaVy02YejV18vkuVcVlb1DbtwjJ42EnZySSeHaaCwuGZ8yQGTloCXkgb2T2G5--p8lXsqPFhmS8j-bkoY9jEDD56Uqjfs6cT9nTcdxPkvU3w7CkIvf9hYbVvt3ZIIC39qWDB-ql8swE33U7XyWSYEzqpEk62zZ8NaW-WhcG9jFoN1tGbvTS585jtQBlKmmaw5dIK6H_HUPYujI7y7Ld5G6F-un9FFpTgB6ML21gJ2kLozw=") #telethon
+    OWNER_USERNAME = getenv("OWNER_USERNAME", "AnonyumAz")
+    DB_URI = getenv("DATABASE_URL", "mongodb+srv://music:music@cluster0.sh6h4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+    DB_URI = DB_URI.replace("postgres", "postgres://wdjbvpct:9YeKCuNENv5nctF6LEbeynnPpsoGCYCm@tiny.db.elephantsql.com/wdjbvpct")
+    MESSAGE_DUMP = getenv("MESSAGE_DUMP", "--1001737573985")
+    GBAN_LOGS = getenv("GBAN_LOGS", "--1001737573985")
+    SYS_ADMIN = getenv("SYS_ADMIN", "5134595693")
+    DEV_USERS = getenv("DEV_USERS", "5134595693")
     LOAD = getenv("LOAD")
     WEBHOOK = False
     SPB_MODE = True
